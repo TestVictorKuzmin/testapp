@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        style="@style/AnyTestToolbarStyle"
+        android:id="@+id/toolbarBasic"
+        app:layout_scrollFlags="scroll"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        app:title="@string/app_name"
+        app:menu="@menu/toolbar_menu"
+        app:navigationIcon="@drawable/ic_arrow_back"/>
